@@ -493,6 +493,16 @@ h3 {
   width: 54px;
 }
 
+.feature-grid .feature-icon svg {
+  fill: none;
+  height: 31px;
+  stroke: var(--gold-soft);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+  width: 31px;
+}
+
 .feature-grid h3 {
   color: var(--gold-soft);
   font-size: 1rem;
@@ -1215,8 +1225,8 @@ details p a {
   padding: 0;
 }
 .collection-reveal-image img {
-  background: #f4f3f1;
-  object-fit: contain;
+  background: #000;
+  object-fit: cover;
   min-height: 420px;
 }
 .packaging-image img {
@@ -1227,8 +1237,8 @@ details p a {
 /* VSPR approved identity system — September 2026
    Primary: SIGNAL narrow wordmark. Secondary: PURE narrow wordmark. */
 .brand img {
-  height: 42px;
-  width: 176px;
+  height: 58px;
+  width: auto;
   object-fit: contain;
   mix-blend-mode: screen;
 }
@@ -1245,7 +1255,7 @@ details p a {
   mix-blend-mode: screen;
 }
 @media (max-width: 720px) {
-  .brand img { height: 34px; width: 142px; }
+  .brand img { height: 46px; width: auto; }
   .final-cta > img { width: min(560px, 94vw); }
   .site-footer > img { width: min(360px, 90vw); }
   .collection-reveal-image img { min-height: 280px; }
